@@ -1,0 +1,49 @@
+/* Ellipsis*/
+@mixin ellipsis($size: 16px) {
+    width: $size;
+    height: $size;
+    display: inline-block;
+    border-radius: 50%;
+    background: $brand-primary;
+    border: 4px solid lighten($brand-primary, 20%);
+}
+
+/* Gradient*/
+@mixin gradient($direction, $startColor: #fff, $endColor: #f4f4f4) {
+    width: 100%;
+    height: 100px;
+    background-image: -webkit-linear-gradient($direction, $startColor, $endColor);
+    background-image: -webkit-gradient(linear, left top, left bottom, from($direction), color-stop($startColor), to($endColor));
+    background-image: linear-gradient($direction, $startColor, $endColor);
+}
+
+/* Position*/
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+    position: $position;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+/* Box*/
+@mixin box($width: null, $height: null, $bg: null, $display: null) {
+    width: $width;
+    height: $height;
+    background: $bg;
+    display: $display
+}
+
+/* Font*/
+@mixin font($size: null, $weight: null, $color: null, $family: null, $line-height: null, $transform: null, $decoration: null, $style: null, $spacing: null, $align: null) {
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+    line-height: $line-height;
+    text-transform: $transform;
+    text-decoration: $decoration;
+    font-style: $style;
+    letter-spacing: $spacing;
+    text-align: $align;
+    font-family: $family;
+}

@@ -1,0 +1,140 @@
+
+/* ===================================================================
+    GENERAL STYLES
+===================================================================  */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700|Poppins:300');
+
+a, a:focus, a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+span, i {
+    display: inline-block;
+}
+
+body {
+    font-family: $base-font-family;
+}
+
+section {
+    padding: $section-padding 0;
+    position: relative;
+}
+
+
+/** TYPOGRAPHY **/
+h1, h2, h3, h4, h5, h6 {
+    font-family: $secondary-font-family;
+    margin: 10px 0;
+    font-weight: 300;
+    color: $heading-color;
+}
+
+h1, .h1, .display-1 { font-size: 3.5em; }
+h2, .h2, .display-2 { font-size: 2.5em;   }
+h3, .h3, .display-3 { font-size: 1.4em; }
+h4, .h4, .display-4 { font-size: 1.2em; }
+h5, .h5, .display-5 { font-size: 1em;   }
+h6, .h6, .display-6 { font-size: 0.8em; }
+
+.lead {
+    font-size: 1.1em;
+    color: #777;
+    line-height: 1.8em;
+}
+
+/** HELPERS **/
+.ellipsis {
+    @include ellipsis(18px);
+}
+
+.gray-bg {
+    background: #f4f4f4;
+}
+
+.btn-template {
+    border: 1px solid #333;
+    padding: 7px 40px;
+    color: #333;
+    font-weight: 400;
+    border-radius: 0;
+
+    &:hover, &:focus {
+        background: #333;
+        color: #fff;
+    }
+}
+
+.has-ellipsis-left {
+    &::before {
+        content: '';
+        @include ellipsis;
+        margin-right: 10px;
+    }
+}
+.has-ellipsis-right {
+    &::after {
+        content: '';
+        @include ellipsis;
+        margin-left: 10px;
+    }
+}
+
+.ellipsis {
+    content: '';
+    @include ellipsis;
+    margin-right: 10px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #eee;
+    -webkit-transform: translateY($section-padding);
+        -ms-transform: translateY($section-padding);
+            transform: translateY($section-padding);
+}
+
+.has-gradient-top {
+    &::before, &::after {
+        @include gradient(to bottom);
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+    }
+}
+
+.has-gradient-bottom {
+    &::before {
+        @include gradient(to top);
+        position: absolute;
+        content: '';
+        left: 0;
+        bottom: 0;
+    }
+}
+
+.has-gradient-both {
+    &::before, &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+    }
+    &::before {
+        @include gradient(to bottom);
+        top: 0;
+    }
+    &::after {
+        @include gradient(to top);
+        bottom: 0;
+    }
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
