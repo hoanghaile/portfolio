@@ -23,7 +23,7 @@ const SectionResume = () => {
             </div>
             <div className="col-lg-6 col-md-6">
               <h3>5/2021-9/2021</h3>
-              <p className="has-ellipsis-left">React intership in company <a href="https://vnagroup.com.vn/">VNA-Group</a></p>
+              <p className="has-ellipsis-left">React intership in company <a className="text-primary" href="https://vnagroup.com.vn/">VNA-Group</a></p>
             </div>
           </div>
         </div>
