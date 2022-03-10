@@ -6,96 +6,26 @@ const SectionResume = () => {
       <section className="contact" id="contact">
         <div className="container">
           <h2 className="has-ellipsis-left text-center wow fadeInUp">
-            Contact Me
+            Portfolio
           </h2>
-          <p className="lead text-center wow fadeInUp" data-wow-delay="0.3s">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-
-          <div className="form-holder">
-            <form
-              action="https://formspree.io/your@email.com"
-              id="contact-form"
-              method="POST"
-            >
-              <div className="row">
-                <div className="col-md-6 form-group">
-                  <input
-                    type="text"
-                    name="username"
-                    id="username"
-                    className="form-control"
-                    required
-                  />
-                  <label htmlFor="username">Enter your name</label>
-                </div>
-                <div className="col-md-6 form-group">
-                  <input
-                    type="email"
-                    name="useremail"
-                    className="form-control"
-                    id="email"
-                    required
-                  />
-                  <label htmlFor="email">Enter uour email address</label>
-                </div>
-                <div className="col-md-12 form-group">
-                  <input
-                    type="text"
-                    name="subject"
-                    className="form-control"
-                    id="subject"
-                    required
-                  />
-                  <label htmlFor="subject">Subject</label>
-                </div>
-                <div className="col-md-12 form-group">
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    required
-                  ></textarea>
-                  <label htmlFor="message">How can we help you?</label>
-                </div>
-
-                <div className="col-md-12 form-group text-center no-margin-bottom ">
-                  <input
-                    type="submit"
-                    className="btn btn-template"
-                    value="Send Your Message"
-                  />
-                </div>
+          <div className="row">
+            <div className="col-lg-6 col-md-6">
+              <div className="item">
+                <h3>2019 - 2021</h3>
+                <p className="has-ellipsis-left">During college, took part in many small and
+                  medium projects:</p>
+                <p>Graduation project: </p>
+                <p>Small-project:&nbsp;<a className="text-primary" href="https://bitbucket.org/hailhps11105/project/src/master/">https://bitbucket.org/hailhps11105/project/src/master/</a>
+                  <a className="text-primary" href="http://hailehoang.com/" alt="Small-Project" title="">(Small-Project)</a></p>
+                <p>Portfolio:&nbsp;<a className="text-primary" href="https://bitbucket.org/hailhps11105/cv-online/src/master/"> https://bitbucket.org/hailhps11105/cv-online/src/master/</a></p>
+                <p>Web Movie:&nbsp;<a className="text-primary" href="https://github.com/hoanghaile/laravel_asm_movie">https://github.com/hoanghaile/laravel_asm_movie</a> </p>
               </div>
-            </form>
+            </div>
+            <div className="col-lg-6 col-md-6">
+              <h3>5/2021-9/2021</h3>
+              <p className="has-ellipsis-left">React intership in company <a href="https://vnagroup.com.vn/">VNA-Group</a></p>
+            </div>
           </div>
-
-          <ul className="contact-details list-unstyled d-flex justify-content-center flex-column flex-md-row">
-            <li>
-              <div className="icon">
-                <i className="fa fa-envelope-o"></i>
-              </div>
-              <p>
-                <a href="mailto:Example@mail.com">
-                  Nckt9a.lehoanghai@gmail.com
-                </a>
-              </p>
-            </li>
-            <li>
-              <div className="icon">
-                <i className="fa fa-map-marker"></i>
-              </div>
-              <p>221B Baker Street, Westminster, London.</p>
-            </li>
-            <li>
-              <div className="icon">
-                <i className="fa fa-phone"></i>
-              </div>
-              <p>
-                <a href="tel:986745698">(+84) 933-511-342</a>
-              </p>
-            </li>
-          </ul>
         </div>
       </section>
     </>

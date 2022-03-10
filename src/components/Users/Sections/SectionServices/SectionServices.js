@@ -1,15 +1,14 @@
 import React from "react";
-import Layers from "../../../../assets/img/layers.svg";
-import Coding from "../../../../assets/img/coding.svg";
-import Smartphone from "../../../../assets/img/smartphone.svg";
-import LightBulb from "../../../../assets/img/light-bulb.svg";
-
+import Layers from "../../../../assets/img/soccer_ball2.svg";
+import Coding from "../../../../assets/img/cinema-15.svg";
+import Smartphone from "../../../../assets/img/music-15.svg";
+import LightBulb from "../../../../assets/img/Coffee-Cup-Silhouette.svg";
 const SectionServices = () => {
   return (
     <>
       <section className="services" id="services">
         <div className="container">
-          <h2 className="has-ellipsis-left text-center">My Services</h2>
+          <h2 className="has-ellipsis-left text-center">My Hobby</h2>
 
           <div className="row">
             <div className="col-lg-3 col-md-6 text-center">
@@ -17,11 +16,7 @@ const SectionServices = () => {
                 <div className="icon">
                   <img src={Layers} alt="Web Design" />
                 </div>
-                <h3>Web Design</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
+                <h3>Play soccer</h3>
               </div>
             </div>
 
@@ -30,11 +25,7 @@ const SectionServices = () => {
                 <div className="icon">
                   <img src={Coding} alt="Web Development" />
                 </div>
-                <h3>Web Development</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
+                <h3>Movie</h3>
               </div>
             </div>
 
@@ -43,11 +34,7 @@ const SectionServices = () => {
                 <div className="icon">
                   <img src={Smartphone} alt="App Design" />
                 </div>
-                <h3>App Design</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
+                <h3>Music</h3>
               </div>
             </div>
 
@@ -56,11 +43,7 @@ const SectionServices = () => {
                 <div className="icon">
                   <img src={LightBulb} alt="Marketing" />
                 </div>
-                <h3>Marketing</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
+                <h3>Coffee with friends</h3>
               </div>
             </div>
           </div>

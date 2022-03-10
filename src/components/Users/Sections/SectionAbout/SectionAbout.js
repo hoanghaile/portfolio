@@ -4,17 +4,12 @@ const SectionAbout = () => {
     <>
       <section className="about" id="about">
         <div className="container">
-          <h2 className="has-ellipsis-left">About Me</h2>
+          <h2 className="has-ellipsis-left">Career objective</h2>
+          <p>- Work goal to become a fullstack developer</p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            - Master the skills needed for the job during period so that in the next 3 to 4 years you can become a professional programmer.
           </p>
-          <a href="#" className="btn btn-template" target="_blank">
+          <a href="https://www.topcv.vn/xem-cv/V1UFUgUHVFYLBloHUABRUgoPVwFXVQUHAAACBw57c5?utm_source=link_i_topcv&utm_campaign=link_i_topcv&utm_medium=link_i_topcv" className="btn btn-template" target="_blank">
             Download CV
           </a>
         </div>

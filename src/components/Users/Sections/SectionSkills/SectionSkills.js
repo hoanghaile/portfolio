@@ -8,23 +8,39 @@ const SectionSkills = () => {
           <h2 className="has-ellipsis-left">My Skills</h2>
 
           <div className="row">
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div className="item">
-                <strong>80%</strong>
-                <h4>Photoshop</h4>
+                {/* <strong>70%</strong> */}
+                <h4>ReactJS</h4>
                 <div className="progress">
                   <div
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "80%", height: "3px" }}
-                    aria-valuenow="80"
+                    style={{ width: "100%", height: "3px" }}
+                    aria-valuenow="100"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   ></div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+            {/* <div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+              <div className="item">
+                
+                <h4>Photoshop</h4>
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{ width: "100%", height: "3px" }}
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div> */}
+            {/* <div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
               <div className="item">
                 <strong>70%</strong>
                 <h4>Illustrator</h4>
@@ -32,23 +48,23 @@ const SectionSkills = () => {
                   <div
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "70%", height: "3px" }}
+                    style={{ width: "100%", height: "3px" }}
                     aria-valuenow="70"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   ></div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+            </div> */}
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div className="item">
-                <strong>90%</strong>
+                {/* <strong>90%</strong> */}
                 <h4>HTML/CSS</h4>
                 <div className="progress">
                   <div
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "90%", height: "3px" }}
+                    style={{ width: "100%", height: "3px" }}
                     aria-valuenow="90"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -56,15 +72,15 @@ const SectionSkills = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div className="item">
-                <strong>70%</strong>
+                {/* <strong>70%</strong> */}
                 <h4>Javascript</h4>
                 <div className="progress">
                   <div
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "70%", height: "3px" }}
+                    style={{ width: "100%", height: "3px" }}
                     aria-valuenow="70"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -72,15 +88,15 @@ const SectionSkills = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div className="item">
-                <strong>80%</strong>
+                {/* <strong>80%</strong> */}
                 <h4>SASS &amp; LESS</h4>
                 <div className="progress">
                   <div
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "80%", height: "3px" }}
+                    style={{ width: "100%", height: "3px" }}
                     aria-valuenow="80"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -88,54 +104,39 @@ const SectionSkills = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div className="item">
-                <strong>88%</strong>
-                <h4>PHP &amp; MySQL</h4>
+                {/* <strong>60%</strong> */}
+                <h4>ExpressJs &amp; MongoDB</h4>
                 <div className="progress">
                   <div
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "88%", height: "3px" }}
-                    aria-valuenow="88"
+                    style={{ width: "100%", height: "3px" }}
+                    aria-valuenow="60"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   ></div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+            <div className="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
               <div className="item">
-                <strong>95%</strong>
+                {/* <strong>75%</strong> */}
                 <h4>Wordpress</h4>
                 <div className="progress">
                   <div
                     className="progress-bar"
                     role="progressbar"
-                    style={{ width: "95%", height: "3px" }}
-                    aria-valuenow="95"
+                    style={{ width: "100%", height: "3px" }}
+                    aria-valuenow="75"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   ></div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
-              <div className="item">
-                <strong>40%</strong>
-                <h4>Laravel</h4>
-                <div className="progress">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: "40 %", height: "3px" }}
-                    aria-valuenow="40"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>

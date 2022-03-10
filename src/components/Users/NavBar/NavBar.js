@@ -31,19 +31,22 @@ const NavBar = () => {
                 <a href="#hero">Home</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about">About me</a>
               </li>
               <li>
-                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
               </li>
               <li>
-                <a href="#resume">Resume</a>
+                <a href="#resume">Education</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#portfolio">Portfolio</a>
+              </li> */}
+              <li>
+                <a href="#contact">Portfolio</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#hobby">Hobby</a>
               </li>
             </ul>
           </div>

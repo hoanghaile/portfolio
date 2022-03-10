@@ -5,9 +5,9 @@ import SectionStatistics from "./SectionStatistics/SectionStatistics";
 import SectionServices from "./SectionServices/SectionServices";
 import SectionSkills from "./SectionSkills/SectionSkills";
 import SectionResume from "./SectionResume/SectionResume";
-import SectionPortfolio from "./SectionPortfolio/SectionPortfolio";
+// import SectionPortfolio from "./SectionPortfolio/SectionPortfolio";
 import SectionContact from "./SectionContact/SectionContact";
-import SectionClients from "./SectionClients/SectionClients";
+// import SectionClients from "./SectionClients/SectionClients";
 
 const Sections = () => {
   return (
@@ -15,12 +15,12 @@ const Sections = () => {
       <SectionHero />
       <SectionAbout />
       <SectionStatistics />
-      <SectionServices />
       <SectionSkills />
       <SectionResume />
-      <SectionPortfolio />
+      {/* <SectionPortfolio /> */}
       <SectionContact />
-      <SectionClients />
+      <SectionServices />
+      {/* <SectionClients /> */}
     </>
   );
 };
